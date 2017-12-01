@@ -2,6 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
 
+## First Steps
+
+### Install Dependences
+- Install nodejs
+- Install Yarn npm install -g yarn
+- run `yarn install`
+
+### Tips
+
+- Complex Component: `panel`
+- Simple Component: `login`
+
+### Test server
+- run `ng serve` and open `http://localhost:4200`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -9,6 +24,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+For inline/simple components you should use
+`ng generate component component-name -is -it`
 
 ## Build
 
