@@ -6,23 +6,26 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { PanelComponent } from './panel/panel.component';
+import { LoginExternalComponent } from './login-external/login-external.component';
 
 const appRoutes: Routes = [
   {
-    path: '', redirectTo: '/home',
+    path: '',
+    redirectTo: '/home',
     pathMatch: 'full'
   },
   { path: 'login', component: LoginComponent },
-  { path: 'home', component: HomeComponent },
+  { path: 'login-external', component: LoginExternalComponent },
+  { path: 'home', component: HomeComponent }
 ];
-
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomeComponent,
-    PanelComponent
+    PanelComponent,
+    LoginExternalComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +35,6 @@ const appRoutes: Routes = [
     )
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ AppComponent ]
 })
-export class AppModule { }
+export class AppModule {}
