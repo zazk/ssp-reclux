@@ -122,7 +122,10 @@ declare var $: any;
     </div>
   `,
   styles: [],
-  styleUrls: [ '../../assets/Resources/build/css/login.css' ],
+  styleUrls: [
+    '../../assets/Resources/vendors/bootstrap/dist/css/bootstrap.min.css',
+    '../../assets/Resources/build/css/login2.css'
+  ],
   encapsulation: ViewEncapsulation.None
 })
 export class LoginExternalComponent implements OnInit {

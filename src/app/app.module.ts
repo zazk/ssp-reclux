@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { PanelComponent } from './panel/panel.component';
 import { LoginExternalComponent } from './login-external/login-external.component';
 import { RecuperarClaveComponent } from './recuperar-clave/recuperar-clave.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 const appRoutes: Routes = [
   {
@@ -18,7 +19,8 @@ const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'login-external', component: LoginExternalComponent },
   { path: 'recuperar-clave', component: RecuperarClaveComponent },
-  { path: 'home', component: HomeComponent }
+  { path: 'home', component: HomeComponent },
+  { path: 'admin/usuarios', component: UsuariosComponent }
 ];
 
 @NgModule({
@@ -28,7 +30,8 @@ const appRoutes: Routes = [
     HomeComponent,
     PanelComponent,
     LoginExternalComponent,
-    RecuperarClaveComponent
+    RecuperarClaveComponent,
+    UsuariosComponent
   ],
   imports: [
     BrowserModule,
