@@ -1,5 +1,7 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-
+// JQuery Works!
+declare var $: any;
+// --------
 @Component({
   selector: 'app-login',
   encapsulation: ViewEncapsulation.None,
@@ -61,7 +63,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
                                   </div>
                                   <div class="separator">
                                     <p class="change_link">
-                                      <a href="#signin" class="to_register"> Olvidaste tu clave? </a>
+                                      <a href="./recuperar-clave" class="to_register"> Olvidaste tu clave? </a>
                                     </p>
                                    <div class="clearfix"></div>
                                     <br />

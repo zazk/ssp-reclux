@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { PanelComponent } from './panel/panel.component';
 import { LoginExternalComponent } from './login-external/login-external.component';
+import { RecuperarClaveComponent } from './recuperar-clave/recuperar-clave.component';
 
 const appRoutes: Routes = [
   {
@@ -16,6 +17,7 @@ const appRoutes: Routes = [
   },
   { path: 'login', component: LoginComponent },
   { path: 'login-external', component: LoginExternalComponent },
+  { path: 'recuperar-clave', component: RecuperarClaveComponent },
   { path: 'home', component: HomeComponent }
 ];
 
@@ -25,7 +27,8 @@ const appRoutes: Routes = [
     LoginComponent,
     HomeComponent,
     PanelComponent,
-    LoginExternalComponent
+    LoginExternalComponent,
+    RecuperarClaveComponent
   ],
   imports: [
     BrowserModule,

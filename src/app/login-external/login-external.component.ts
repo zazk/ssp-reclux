@@ -59,7 +59,7 @@ declare var $: any;
                             </div>
                             <div class="separator">
                             <p class="change_link">
-                                <a href="" class=""> Olvidaste tu clave? </a>
+                                <a href="./recuperar-clave" class=""> Olvidaste tu clave? </a>
                               </p>
                               <p class="change_link">Eres nuevo?
                                 <a href=" javascript:;" id="reg"> Crear cuenta </a>
