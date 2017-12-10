@@ -1,0 +1,209 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: white;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+table {
+	border: 1px solid rgb(201, 201, 201);
+}
+
+table thead th {
+	max-height: 18px;
+	font-size: 13px;
+	color: #606060;
+	border-bottom: 1px solid rgb(201, 201, 201);
+	min-width: 100%;
+}
+
+table tbody td input {
+	font-size: 12px !important;
+	background: none;
+	border: 0;
+	outline: none;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+
+table tbody td {
+	max-height: 10px;
+	font-size: 13px;
+	color: #606060;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-top: 1px solid #d2d2d2;
+}
+
+.dataTables_wrapper {
+	border: 1px solid rgb(201, 201, 201);
+	border-radius: 10px;
+	width: 100%;
+}
+
+.dataTables_wrapper .row {
+	padding: 0;
+	margin: 0;
+}
+.dataTables_wrapper .row .dataTables_length {
+	text-align: right;
+	padding-top: 7px;
+}
+
+.dataTables_wrapper .row:nth-child(1) {
+	background-color: #eeeeee;
+	border-bottom: 1px solid rgb(201, 201, 201);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.dataTables_wrapper .row:nth-child(3) {
+	background-color: #eeeeee;
+	border-top: 1px solid rgb(201, 201, 201);
+	padding-top: 5px;
+}
+
+.dataTables_wrapper .row .dataTables_length label {
+	color: white;
+	line-height:330%;
+	font-size: 15px;
+}
+
+.dataTables_wrapper .row .dataTables_paginate  {
+	display: none;
+}
+
+.dataTables_wrapper .row .dataTables_info  {
+	padding-bottom: 10px;
+	color: #606060;
+}
+
+.arrow {
+  position: relative;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 2px;
+  height: 2em;
+}
+
+.arrow-status {
+  text-align: right;
+  padding-right: .5em;
+  background-color: #d2d2d2;
+  border-color: white;
+  border-right: .5em solid adjust-lightness(#3aa6d0, 20);
+  width: 0%;
+  color: rgb(100, 100, 100);
+  height: 100%;
+  line-height: 1.2em;
+  -webkit-animation: width .5s ease-in;
+  vertical-align: middle;
+}
+
+@-webkit-keyframes width {
+    from { width: 0%; }
+}
+
+
+/* SELECT */
+
+select {
+	border: 1px solid #969696;
+	font-size: 11px;
+	max-height: 25px;
+}
+
+.pad {
+	padding-top: 15px;
+}
+
+.bul {
+	overflow:hidden;
+}
+
+.bul .lileft {
+	padding-left: 25px !important;
+}
+
+.bul .liright {
+	padding-right: 10px !important;
+}
+
+.bright {
+	border-right: 1px solid rgb(201, 201, 201) !important;
+}
+
+.bordleft {
+	border-left: 1px solid rgb(201, 201, 201) !important;
+}
+
+.bbutton {
+	border-bottom: 1px solid rgb(201, 201, 201) !important;
+}
+
+.btop {
+	border-top: 1px solid rgb(201, 201, 201) !important;
+}
+
+@media screen and (max-width: 768px) {
+	ul li .icon-tab {
+		font-size: 20px;
+		padding-bottom: 5px;
+	}
+	ul li span {
+		font-size: 0%;
+	}
+	
+	.row .crollX {
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	ul li .icon-tab {
+		font-size: 0%;
+	}
+	
+	ul li span {
+		font-size: 10px !important;
+	}
+}
+
+
+/* DATOS PERSONALES */
+
+.row div input {
+	font-size: 12px !important;
+	max-height: 30px !important;
+}
+
+.row div label {
+	font-size: 12px !important;
+}
+
+.row div select {
+	font-size: 12px !important;
+	border: 1px solid rgb(158, 158, 158) !important;
+	color: rgb(105, 105, 105) !important;
+}
