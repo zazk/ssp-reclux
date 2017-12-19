@@ -10,6 +10,7 @@ import { LoginExternalComponent } from './login-external/login-external.componen
 import { RecuperarClaveComponent } from './recuperar-clave/recuperar-clave.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import { ConvocatoriasComponent } from './convocatorias/convocatorias.component';
+import { RegistroPerfilComponent } from './registro-perfil/registro-perfil.component';
 
 const appRoutes: Routes = [
   {
@@ -22,6 +23,7 @@ const appRoutes: Routes = [
   { path: 'recuperar-clave', component: RecuperarClaveComponent },
   { path: 'home', component: HomeComponent },
   { path: 'admin/usuarios', component: UsuariosComponent },
+  { path: 'admin/registro-perfiles', component: RegistroPerfilComponent },
   { path: 'admin/convocatorias', component: ConvocatoriasComponent }
 ];
 
@@ -34,7 +36,8 @@ const appRoutes: Routes = [
     LoginExternalComponent,
     RecuperarClaveComponent,
     UsuariosComponent,
-    ConvocatoriasComponent
+    ConvocatoriasComponent,
+    RegistroPerfilComponent
   ],
   imports: [
     BrowserModule,
@@ -44,6 +47,6 @@ const appRoutes: Routes = [
     )
   ],
   providers: [],
-  bootstrap: [ AppComponent ]
+  bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
